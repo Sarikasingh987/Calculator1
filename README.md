@@ -24,11 +24,11 @@ Usage: Click the DE button to remove the last digit or operator from the current
 
 An input field (<input>) where the result and entered values are displayed.
 A series of buttons (<button>) representing numbers, operators, and a clear (CLR) and equals (=) button. Each button has an onclick event that triggers specific JavaScript functions when pressed.
-CSS: This styles the calculator:
+**CSS**: This styles the calculator:
 
 The calculator is centered on the page.
 Buttons are given a uniform size and spacing, and the input field is styled for proper display.
-JavaScript: This controls the calculator's functionality:
+**JavaScript:** This controls the calculator's functionality:
 
 appendToDisplay(): Adds the number or operator clicked to the display.
 clearDisplay(): Clears the display when the 'CLR' button is pressed.
